@@ -153,8 +153,8 @@ def equipment_status(db, item):
     }
 
 if not st.session_state.logged_in:
-    st.title("🚜 Control de Flota y Mantenimiento")
-    st.info("Credenciales por defecto: **ADMIN001** | Contraseña: **Admin12345678**")
+    st.title("🚜 Control de Flota y Mantenimiento MCS COLGRUAS")
+    # st.info("Credenciales por defecto: **ADMIN001** | Contraseña: **Admin12345678**")
     
     with st.form("login_form"):
         username = st.text_input("Usuario").strip().upper()
